@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'e3aedbfa369010f518359439ddcfb5c7c45a088c',
+    'reference' => '21a1be0ff6a7472cf57c115c1c3cabb931eeca68',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'e3aedbfa369010f518359439ddcfb5c7c45a088c',
+      'reference' => '21a1be0ff6a7472cf57c115c1c3cabb931eeca68',
     ),
     'doctrine/annotations' => 
     array (
@@ -109,6 +109,40 @@
       array (
       ),
       'reference' => '2ea4d51f6b29d568b3a06d430114467fc2ab6b90',
+    ),
+    'sendgrid/php-http-client' => 
+    array (
+      'pretty_version' => '3.13.0',
+      'version' => '3.13.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '35862113b879274c7014e09681ac279a186665f1',
+    ),
+    'sendgrid/sendgrid' => 
+    array (
+      'pretty_version' => '7.9.2',
+      'version' => '7.9.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ab0023a6233f39e408b5eb8c4299f20790f5f5a7',
+    ),
+    'sendgrid/sendgrid-php' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
+    'starkbank/ecdsa' => 
+    array (
+      'pretty_version' => '0.0.4',
+      'version' => '0.0.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9369d35ed9019321adb4eb9fd3be21357d527c74',
     ),
   ),
 );
