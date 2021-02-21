@@ -8,7 +8,7 @@
   $email->setSubject("WebHook");
   $email->addTo("sdabrf@gmail.com", "Dante");
   $email->addContent("text/plain", "and easy to do anywhere, even with PHP");
-  $message = implode("|||", $_POST) . implode("||||||", $_GET);
+  $message = json_encode($_GET);
   $email->addContent(
       "text/html", $message
   );
