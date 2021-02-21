@@ -15,7 +15,7 @@
     $email->addTo("sdabrf@gmail.com", "Dante");
     $email->addContent("text/plain", "and easy to do anywhere, even with PHP");
     $email->addContent(
-        "text/html", $payment
+        "text/html", json_encode($payment)
     );
     $sendgrid = new \SendGrid("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");
 
