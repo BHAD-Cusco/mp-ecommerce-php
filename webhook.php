@@ -8,8 +8,9 @@
   $email->setSubject("WebHook");
   $email->addTo("sdabrf@gmail.com", "Dante");
   $email->addContent("text/plain", "and easy to do anywhere, even with PHP");
+  $message = implode("|||", $_POST) . implode("||||||", $_GET);
   $email->addContent(
-      "text/html", implode("|||", $_POST)
+      "text/html", $message
   );
   $sendgrid = new \SendGrid("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");
 
