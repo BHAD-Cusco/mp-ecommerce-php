@@ -131,8 +131,9 @@
                                         </h3>
                                     </div>
                                     <form action="/checkout.php">
-                                        <input type="hidden" value="<?= $_POST['title'] ?>">
-                                        <input type="hidden" value="<?= $_POST['price'] ?>">
+                                        <input type="hidden" value="<?= $_POST['title'] ?>" name="name">
+                                        <input type="hidden" value="<?= $_POST['price'] ?>" name="price">
+                                        <input type="hidden" value="<?= $_POST['img'] ?>" name="url">
                                         <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
                                     </form>
                                 </div>
