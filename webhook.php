@@ -5,7 +5,7 @@
   if(isset($_POST["type"])){
     switch($_POST["type"]) {
       case "payment":
-          $payment = MercadoPago\Payment::find_by_id($_POST["id"]);
+          $payment = MercadoPago\Payment::find_by_id($_POST["data.id"]);
           break;
     }
 
